@@ -1,7 +1,23 @@
 # IceRace by Jero
 # Version 0.0.1
 
-
+#Race start line
 Start Line x: 1
 Start Line y: 33
 Start Line z: 34
+Start Line Block ID: 1
+
+#Just behind start line
+Start x:
+Start y:
+Start z:
+
+
+#Race lobby for teleport
+Start Area x: 1
+Start Area y: 1
+Start Area z: 1
+
+
+#Players
+Players: 4

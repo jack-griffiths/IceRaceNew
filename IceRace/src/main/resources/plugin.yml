@@ -10,18 +10,24 @@ commands:
       description: Blank description.
       usage: /<command>
       permission: bc.game
-   players4:
+   players:
       description: Blank description.
       usage: /<command>
       permission: bc.game           
    joinGame:
       description: Blank description.
-      usage: /<command>
-      permission: bc.game       
+      usage: /<command>    
    begin:
       description: Blank description.
       usage: /<command>
       permission: bc.game         
+   automate:
+      description: Blank description.
+      usage: /<command>
+      permission: bc.game
+   joinLobby:
+      description: Blank description.
+      usage: /<command>
       
 permissions:
    bc.*:
