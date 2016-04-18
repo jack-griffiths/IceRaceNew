@@ -1,0 +1,33 @@
+name: IceRace
+main: com.theseasonedgamers.icerace.IceRace
+version: 1.0
+commands:
+   startGame:
+      description: Blank description.
+      usage: /<command>
+      permission: bc.game
+   endGame:
+      description: Blank description.
+      usage: /<command>
+      permission: bc.game
+   players4:
+      description: Blank description.
+      usage: /<command>
+      permission: bc.game           
+   joinGame:
+      description: Blank description.
+      usage: /<command>
+      permission: bc.game       
+   begin:
+      description: Blank description.
+      usage: /<command>
+      permission: bc.game         
+      
+permissions:
+   bc.*:
+      description: Gives access to all Race Commands.
+      children:
+         bc.game: true
+   bc.game:
+      description: Allows user to run game commands
+      default: op
